@@ -24603,8 +24603,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK"/>
 <part name="F1" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="500mA"/>
-<part name="U3" library="SparkFun-Connectors" deviceset="USB-AB" device="CONN-11794"/>
-<part name="U4" library="SparkFun-DigitalIC" deviceset="74AHC1G125" device=""/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="USB-AB" device="CONN-11794"/>
+<part name="U3" library="SparkFun-DigitalIC" deviceset="74AHC1G125" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -24722,8 +24722,8 @@ Default: closed.</text>
 <instance part="GND16" gate="1" x="180.34" y="93.98"/>
 <instance part="JP4" gate="G$1" x="228.6" y="60.96"/>
 <instance part="F1" gate="G$1" x="50.8" y="167.64"/>
-<instance part="U3" gate="G$1" x="22.86" y="162.56" rot="R180"/>
-<instance part="U4" gate="G$1" x="66.04" y="134.62"/>
+<instance part="JP3" gate="G$1" x="22.86" y="162.56" rot="R180"/>
+<instance part="U3" gate="G$1" x="66.04" y="134.62"/>
 <instance part="R4" gate="G$1" x="43.18" y="144.78" rot="R90"/>
 <instance part="SUPPLY10" gate="G$1" x="43.18" y="152.4"/>
 <instance part="SUPPLY11" gate="G$1" x="81.28" y="142.24"/>
@@ -24806,8 +24806,8 @@ Default: closed.</text>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="27.94" y1="157.48" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="157.48" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
-<pinref part="U3" gate="G$1" pin="SHIELD"/>
+<pinref part="JP3" gate="G$1" pin="GND"/>
+<pinref part="JP3" gate="G$1" pin="SHIELD"/>
 <wire x1="27.94" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="170.18" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 <junction x="30.48" y="157.48"/>
@@ -24862,7 +24862,7 @@ Default: closed.</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="GND"/>
+<pinref part="U3" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="53.34" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="132.08" x2="50.8" y2="129.54" width="0.1524" layer="91"/>
@@ -24946,7 +24946,7 @@ Default: closed.</text>
 <wire x1="43.18" y1="152.4" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="VCC"/>
+<pinref part="U3" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
 <wire x1="78.74" y1="137.16" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="137.16" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
@@ -25036,7 +25036,7 @@ Default: closed.</text>
 <segment>
 <wire x1="27.94" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <label x="35.56" y="162.56" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="D+"/>
+<pinref part="JP3" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
@@ -25048,7 +25048,7 @@ Default: closed.</text>
 <segment>
 <wire x1="27.94" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
 <label x="35.56" y="165.1" size="1.27" layer="95" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="D-"/>
+<pinref part="JP3" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="D1/TXO" class="0">
@@ -25375,7 +25375,7 @@ Default: closed.</text>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="167.64" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VBUS"/>
+<pinref part="JP3" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -25387,9 +25387,9 @@ Default: closed.</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="/OE"/>
+<pinref part="U3" gate="G$1" pin="/OE"/>
 <wire x1="53.34" y1="137.16" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="A"/>
+<pinref part="U3" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
@@ -25402,7 +25402,7 @@ Default: closed.</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 <junction x="48.26" y="137.16"/>
 <wire x1="48.26" y1="137.16" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="USBID"/>
+<pinref part="JP3" gate="G$1" pin="USBID"/>
 <wire x1="48.26" y1="160.02" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25420,7 +25420,7 @@ Default: closed.</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="Y"/>
+<pinref part="U3" gate="G$1" pin="Y"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="78.74" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="132.08" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
