@@ -1631,7 +1631,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="2X5-PTH-1.27MM">
 <description>&lt;h3&gt;ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
 &lt;p&gt;For debuggers and/or programemrs that support the Cortex Debug Connector (10-pin) interface.&lt;/p&gt;
-&lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;</description>
+&lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072"&gt;Example Digikey Part&lt;/a&gt;&lt;/p&gt;</description>
 <pad name="8" x="1.27" y="0.635" drill="0.508" diameter="1"/>
 <pad name="6" x="0" y="0.635" drill="0.508" diameter="1"/>
 <pad name="4" x="-1.27" y="0.635" drill="0.508" diameter="1"/>
@@ -2142,9 +2143,11 @@ design rules under a new name.</description>
 <elements>
 <element name="JP1" library="SparkFun-Connectors" package="1X12_NO_SILK" value="" x="1.27" y="1.27" rot="R90"/>
 <element name="JP2" library="SparkFun-Connectors" package="1X12_NO_SILK" value="" x="16.51" y="29.21" rot="R270"/>
-<element name="Y1" library="samd21-temp" package="CRYSTAL-SMD-3.2X1.5MM" value="32.768kHz" x="4.953" y="7.366" rot="R180"/>
+<element name="Y1" library="samd21-temp" package="CRYSTAL-SMD-3.2X1.5MM" value="32.768kHz" x="4.953" y="7.366" rot="R180">
+<attribute name="PROD_ID" value="XTAL-13062" x="4.953" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U1" library="samd21-temp" package="TQFP-48" value="ATSAMD21G-A" x="8.89" y="13.716" rot="R90">
-<attribute name="PROD_ID" value="IC-" x="8.89" y="13.716" size="0.889" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="IC-13064" x="8.89" y="13.716" size="0.889" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0402-CAP" value="0.1uF" x="4.3942" y="18.542" rot="R180">
 <attribute name="PROD_ID" value="CAP-12416" x="4.3942" y="18.542" size="0.889" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -2161,13 +2164,15 @@ design rules under a new name.</description>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="10K" x="13.97" y="6.35" rot="R90">
 <attribute name="PROD_ID" value="RES-00824" x="13.97" y="6.35" size="0.889" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="L1" library="SparkFun-Passives" package="0603" value="FB - 30Ohm" x="11.43" y="7.366" rot="R180"/>
+<element name="L1" library="SparkFun-Passives" package="0603" value="FB - 30Ohm" x="11.43" y="7.366" rot="R180">
+<attribute name="PROD_ID" value="RES-07859" x="11.43" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="C5" library="samd21-temp" package="0402-CAP" value="15pF" x="3.81" y="9.525">
-<attribute name="PROD_ID" value="" x="3.81" y="9.525" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="CAP-13063" x="3.81" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="15pF" x="3.81" y="9.525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C6" library="samd21-temp" package="0402-CAP" value="15pF" x="7.62" y="7.366" rot="R270">
-<attribute name="PROD_ID" value="" x="7.62" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="CAP-13063" x="7.62" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="15pF" x="7.62" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U2" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5219 3.3V" x="7.62" y="21.209" rot="R180">
@@ -2185,7 +2190,10 @@ design rules under a new name.</description>
 <element name="D3" library="SparkFun-LED" package="LED-0603" value="BLUE" x="15.875" y="30.988" rot="R90">
 <attribute name="PROD_ID" value="DIO-08575" x="15.875" y="30.988" size="0.889" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="C7" library="SparkFun-Capacitors" package="0805-CAP" value="1.0uF" x="5.08" y="21.209" rot="R270"/>
+<element name="C7" library="SparkFun-Capacitors" package="0805-CAP" value="1.0uF" x="5.08" y="21.209" rot="R270">
+<attribute name="PROD_ID" value="CAP-11625" x="5.08" y="21.209" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="1.0uF" x="5.08" y="21.209" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="C8" library="SparkFun-Capacitors" package="0603-CAP" value="2.2uF" x="10.16" y="22.225" rot="R90">
 <attribute name="PROD_ID" value="CAP-07888" x="10.16" y="22.225" size="0.889" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
@@ -2233,7 +2241,9 @@ design rules under a new name.</description>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="14.859" y="13.589" rot="MR0"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-12.7" y="-16.51"/>
 <element name="SJ1" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_NO_SILK" value="PWR-LED" x="1.905" y="31.623" rot="MR0"/>
-<element name="S2" library="samd21-temp" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="RESET" x="8.89" y="1.397" rot="R180"/>
+<element name="S2" library="samd21-temp" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="RESET" x="8.89" y="1.397" rot="R180">
+<attribute name="PROD_ID" value="SWCH-13065" x="8.89" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="15.24" y="2.54"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="3.683" y="28.956"/>
 </elements>

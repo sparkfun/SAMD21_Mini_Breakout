@@ -1369,7 +1369,7 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-"/>
+<attribute name="PROD_ID" value="IC-13064"/>
 </technology>
 </technologies>
 </device>
@@ -1493,7 +1493,9 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="XTAL-13062"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1697,7 +1699,9 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;</description>
 <connect gate="G$1" pin="2" pad="3 4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-13065"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1714,7 +1718,7 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value=""/>
+<attribute name="PROD_ID" value="CAP-13063"/>
 <attribute name="VALUE" value="15pF"/>
 </technology>
 </technologies>

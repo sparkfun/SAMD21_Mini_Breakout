@@ -21388,7 +21388,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <package name="2X5-PTH-1.27MM">
 <description>&lt;h3&gt;ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
 &lt;p&gt;For debuggers and/or programemrs that support the Cortex Debug Connector (10-pin) interface.&lt;/p&gt;
-&lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;</description>
+&lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-detail/en/20021111-00010T4LF/609-3712-ND/2209072"&gt;Example Digikey Part&lt;/a&gt;&lt;/p&gt;</description>
 <pad name="8" x="1.27" y="0.635" drill="0.508" diameter="1"/>
 <pad name="6" x="0" y="0.635" drill="0.508" diameter="1"/>
 <pad name="4" x="-1.27" y="0.635" drill="0.508" diameter="1"/>
@@ -22051,7 +22052,7 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-"/>
+<attribute name="PROD_ID" value="IC-13064"/>
 </technology>
 </technologies>
 </device>
@@ -22175,12 +22176,16 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;</description>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="XTAL-13062"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CORTEX_DEBUG" prefix="JP">
+<description>&lt;h3&gt;Cortex Debug Connector&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CORTEX_DEBUG" x="0" y="0"/>
 </gates>
@@ -22377,7 +22382,9 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;</description>
 <connect gate="G$1" pin="2" pad="3 4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-13065"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -22394,7 +22401,7 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value=""/>
+<attribute name="PROD_ID" value="CAP-13063"/>
 <attribute name="VALUE" value="15pF"/>
 </technology>
 </technologies>
@@ -22502,7 +22509,10 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11625"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -24558,7 +24568,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="FB - 30Ohm"/>
+<part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="FB - 30Ohm">
+<attribute name="PROD_ID" value="RES-07859"/>
+</part>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="C5" library="samd21-temp" deviceset="15PF-50V(+-5%)(0402)" device="" value="15pF"/>
@@ -24667,6 +24679,7 @@ Default: closed.</text>
 <instance part="L1" gate="G$1" x="15.24" y="83.82" smashed="yes">
 <attribute name="NAME" x="17.78" y="88.9" size="1.778" layer="95"/>
 <attribute name="VALUE" x="14.224" y="76.2" size="1.778" layer="96" rot="R90"/>
+<attribute name="PROD_ID" x="15.24" y="83.82" size="1.27" layer="96" align="center-left" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="15.24" y="58.42"/>
 <instance part="SUPPLY3" gate="G$1" x="15.24" y="93.98"/>
