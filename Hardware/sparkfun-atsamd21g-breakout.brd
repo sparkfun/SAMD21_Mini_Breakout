@@ -2176,8 +2176,8 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-13063" x="7.62" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="15pF" x="7.62" y="7.366" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U2" library="SparkFun-PowerIC" package="SOT23-5" value="MIC5219 3.3V" x="7.62" y="21.209" rot="R180">
-<attribute name="PROD_ID" value="VREG-09872" x="7.62" y="21.209" size="0.889" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="U2" library="SparkFun-PowerIC" package="SOT23-5" value="3.3V" x="7.62" y="21.209" rot="R180">
+<attribute name="PROD_ID" value="VREG-12457" x="7.62" y="21.209" size="0.889" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="D2" library="SparkFun-LED" package="LED-0603" value="RED" x="1.905" y="30.988" rot="R270">
 <attribute name="PROD_ID" value="DIO-00819" x="1.905" y="30.988" size="0.889" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -2689,7 +2689,7 @@ design rules under a new name.</description>
 <wire x1="13.8684" y1="4.699" x2="13.8684" y2="7.3152" width="0.1524" layer="16"/>
 <wire x1="14.4018" y1="4.1656" x2="13.8684" y2="4.699" width="0.1524" layer="16"/>
 </signal>
-<signal name="RAW">
+<signal name="VIN">
 <contactref element="JP2" pad="1"/>
 <contactref element="U2" pad="1"/>
 <contactref element="U2" pad="3"/>
