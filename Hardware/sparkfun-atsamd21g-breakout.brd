@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="11" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,12 +23,12 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="13" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -2265,7 +2265,7 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C8" pad="2"/>
-<polygon width="0.2032" layer="2" isolate="0.3048">
+<polygon width="0.2032" layer="2" isolate="0.254">
 <vertex x="0" y="33.02"/>
 <vertex x="0" y="0"/>
 <vertex x="17.78" y="0"/>
@@ -2359,7 +2359,7 @@ design rules under a new name.</description>
 <contactref element="R2" pad="2"/>
 <contactref element="JP2" pad="4"/>
 <contactref element="C8" pad="1"/>
-<polygon width="0.2032" layer="15" isolate="0.3048" rank="3">
+<polygon width="0.2032" layer="15" isolate="0.254" rank="3">
 <vertex x="0" y="33.02"/>
 <vertex x="0" y="0"/>
 <vertex x="17.78" y="0"/>
@@ -3119,8 +3119,37 @@ design rules under a new name.</description>
 <approved hash="4,1,3ec59733e9e56c1f"/>
 <approved hash="4,1,004dd3564c64df73"/>
 <approved hash="4,1,1d59e8425148e05f"/>
+<approved hash="4,2,fc691cd3ee0f66c3"/>
+<approved hash="4,15,fc691cd3ee0f66c3"/>
+<approved hash="14,2,9fa35e635e669fa6"/>
+<approved hash="14,2,6c6871a871a86c68"/>
+<approved hash="14,2,9c5c3f9c3f989c58"/>
+<approved hash="14,2,93098ec98eaf936f"/>
+<approved hash="14,15,9fa35e635e669fa6"/>
+<approved hash="14,15,6c6871a871a86c68"/>
+<approved hash="14,15,9c5c3f9c3f989c58"/>
+<approved hash="14,15,93098ec98eaf936f"/>
+<approved hash="14,15,71c40f220fbb715d"/>
+<approved hash="14,15,79e4be02bead794b"/>
+<approved hash="14,15,64e65b00582b67cd"/>
+<approved hash="14,15,66e4e402e7936575"/>
+<approved hash="14,15,64c60a200a0564e3"/>
+<approved hash="14,15,79e4030203fb791d"/>
+<approved hash="4,1,71be65b4ded570ee"/>
+<approved hash="4,1,49a1eba4bac58afe"/>
+<approved hash="4,1,68b1e6b46dd569ee"/>
+<approved hash="4,1,76a17ea4a7c509fe"/>
+<approved hash="4,1,e63145b7dcb5070d"/>
+<approved hash="4,1,ed2544abf1911429"/>
+<approved hash="19,1,67b4819c80b4669c"/>
 <approved hash="4,1,6956748b8e222ecf"/>
+<approved hash="19,1,47bb119310b84690"/>
 <approved hash="4,1,6685b06fab514251"/>
+<approved hash="19,1,c7bbe193e0bfc697"/>
+<approved hash="19,16,ca7e50549a987f34"/>
+<approved hash="19,16,e3505b95d8ced9a7"/>
+<approved hash="19,16,92b1371927e9fdc7"/>
+<approved hash="19,16,7805013c2b54c964"/>
 <approved hash="4,1,c02d13564c64df13"/>
 <approved hash="4,1,dd3928425148e03f"/>
 <approved hash="19,1,7b9aca58c83079f2"/>
