@@ -24650,7 +24650,7 @@ They go to the SPI header.</text>
 <text x="149.86" y="86.36" size="2.54" layer="94" align="top-left">Headers</text>
 <text x="2.54" y="119.38" size="2.54" layer="94" align="top-left">ATSAMD21G</text>
 <text x="170.18" y="10.16" size="2.54" layer="94" align="top-left">Jim Lindblom</text>
-<text x="238.76" y="10.16" size="2.54" layer="94" align="top-left">v01</text>
+<text x="238.76" y="10.16" size="2.54" layer="94" align="top-left">v10</text>
 <text x="48.26" y="106.68" size="1.778" layer="97" align="center-left">ATSAMD21G18
 VDD Range: 1.62-3.63V</text>
 <text x="218.44" y="139.7" size="1.27" layer="97" align="center-left">SJ1 enable's disconnecting
@@ -25075,16 +25075,16 @@ Default: closed.</text>
 <label x="114.3" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D2" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="8"/>
-<wire x1="175.26" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
-<label x="180.34" y="68.58" size="1.27" layer="95" xref="yes"/>
-</segment>
+<net name="D4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA08(I2C/AIN16/SER0:0+)"/>
 <wire x1="111.76" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
 <label x="114.3" y="88.9" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="6"/>
+<wire x1="175.26" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
+<label x="180.34" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -25099,16 +25099,16 @@ Default: closed.</text>
 <label x="114.3" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D4" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
-<wire x1="175.26" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
-<label x="180.34" y="63.5" size="1.27" layer="95" xref="yes"/>
-</segment>
+<net name="D2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA14(XIN/SER2:2+)"/>
 <wire x1="111.76" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 <label x="114.3" y="73.66" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="8"/>
+<wire x1="175.26" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
+<label x="180.34" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D5" class="0">
