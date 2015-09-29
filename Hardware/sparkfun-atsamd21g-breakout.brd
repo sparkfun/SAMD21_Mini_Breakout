@@ -207,16 +207,19 @@ LED</text>
 <text x="13.462" y="3.4544" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">RX</text>
 <text x="14.4018" y="30.988" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">13</text>
 <text x="3.3782" y="30.988" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">PWR</text>
-<text x="17.78" y="-16.51" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
-<dimension x1="0" y1="0" x2="0" y2="33.02" x3="-6.35" y3="16.51" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="0" y1="0" x2="17.78" y2="0" x3="8.89" y3="-7.62" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="0" x2="1.27" y2="1.27" x3="0.635" y3="-2.54" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="0" x2="16.51" y2="1.27" x3="8.255" y3="-5.08" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="0" x2="1.27" y2="1.27" x3="-1.27" y3="0.635" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="0" y1="0" x2="1.27" y2="3.81" x3="-3.81" y3="1.905" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
+<text x="17.78" y="-19.05" size="1.778" layer="51" font="vector" ratio="15">Jim Lindblom</text>
+<dimension x1="0" y1="0" x2="0" y2="33.02" x3="-10.16" y3="16.51" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch" precision="3"/>
+<dimension x1="0" y1="0" x2="17.78" y2="0" x3="8.89" y3="-10.16" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch" precision="3"/>
+<dimension x1="0" y1="0" x2="1.27" y2="1.27" x3="0.635" y3="-2.54" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch" precision="3"/>
+<dimension x1="0" y1="0" x2="16.51" y2="1.27" x3="8.255" y3="-7.62" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch" precision="3"/>
+<dimension x1="0" y1="0" x2="1.27" y2="1.27" x3="-1.27" y3="0.635" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch" precision="3"/>
+<dimension x1="0" y1="0" x2="1.27" y2="3.81" x3="-3.81" y3="1.905" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch" precision="3"/>
 <text x="8.89" y="32.766" size="1.016" layer="16" font="vector" ratio="15" rot="MR0" align="top-center">v10</text>
 <text x="8.89" y="35.56" size="0.889" layer="51" font="vector" ratio="15" align="bottom-center">This is a 4-layer board!</text>
 <text x="15.4559" y="3.9624" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">11</text>
+<dimension x1="0" y1="0" x2="13.589" y2="17.907" x3="-6.35" y3="8.9535" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch" precision="3"/>
+<dimension x1="0" y1="0" x2="13.589" y2="17.907" x3="6.7945" y3="-5.08" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch" precision="3"/>
+<text x="-17.78" y="-7.62" size="1.27" layer="47" font="vector" ratio="15">Units in inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1604,14 +1607,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="46" x="-1.75" y="4.25" dx="1.5" dy="0.28" layer="1" rot="R90"/>
 <smd name="47" x="-2.25" y="4.25" dx="1.5" dy="0.28" layer="1" rot="R90"/>
 <smd name="48" x="-2.75" y="4.25" dx="1.5" dy="0.28" layer="1" rot="R90"/>
-<wire x1="-3.5" y1="3" x2="-3" y2="3.5" width="0.1778" layer="21"/>
-<wire x1="3" y1="3.5" x2="3.5" y2="3.5" width="0.1778" layer="21"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="3" width="0.1778" layer="21"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="-3" width="0.1778" layer="21"/>
-<wire x1="-3" y1="-3.5" x2="-3.5" y2="-3.5" width="0.1778" layer="21"/>
-<wire x1="3.5" y1="-3" x2="3.5" y2="-3.5" width="0.1778" layer="21"/>
-<wire x1="3.5" y1="-3.5" x2="3" y2="-3.5" width="0.1778" layer="21"/>
-<circle x="-3.8" y="3.8" radius="0.3" width="0" layer="21"/>
+<wire x1="-3.627" y1="3.127" x2="-3.127" y2="3.627" width="0.2032" layer="21"/>
+<wire x1="3.127" y1="3.627" x2="3.627" y2="3.627" width="0.2032" layer="21"/>
+<wire x1="3.627" y1="3.627" x2="3.627" y2="3.127" width="0.2032" layer="21"/>
+<wire x1="-3.627" y1="-3.627" x2="-3.627" y2="-3.127" width="0.2032" layer="21"/>
+<wire x1="-3.127" y1="-3.627" x2="-3.627" y2="-3.627" width="0.2032" layer="21"/>
+<wire x1="3.627" y1="-3.127" x2="3.627" y2="-3.627" width="0.2032" layer="21"/>
+<wire x1="3.627" y1="-3.627" x2="3.127" y2="-3.627" width="0.2032" layer="21"/>
+<circle x="-3.673" y="3.673" radius="0.3" width="0" layer="21"/>
 <text x="0" y="0" size="0.8128" layer="25" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.27" size="0.8128" layer="27" align="bottom-center">&gt;Value</text>
 </package>
@@ -1646,7 +1649,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="3" x="-1.27" y="-0.635" drill="0.508" diameter="1"/>
 <pad name="1" x="-2.54" y="-0.635" drill="0.508" diameter="1"/>
 <pad name="9" x="2.54" y="-0.635" drill="0.508" diameter="1"/>
-<wire x1="-3.403" y1="-0.894" x2="-3.403" y2="-0.386" width="0.2032" layer="21"/>
+<wire x1="-3.403" y1="-1.021" x2="-3.403" y2="-0.259" width="0.254" layer="21"/>
 <wire x1="3.175" y1="1.715" x2="-3.175" y2="1.715" width="0.127" layer="51"/>
 <wire x1="-3.175" y1="1.715" x2="-3.175" y2="-1.715" width="0.127" layer="51"/>
 <wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.127" layer="51"/>
@@ -2240,7 +2243,7 @@ design rules under a new name.</description>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="10.541" y="18.923"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="5.334" y="17.6276" rot="MR90"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="7.2136" y="5.9436" rot="MR90"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-12.7" y="-16.51"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-12.7" y="-19.05"/>
 <element name="SJ1" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_NO_SILK" value="PWR-LED" x="1.905" y="31.623" rot="MR0"/>
 <element name="S2" library="samd21-temp" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="RESET" x="8.89" y="1.397" rot="R180">
 <attribute name="PROD_ID" value="SWCH-13065" x="8.89" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2443,11 +2446,11 @@ design rules under a new name.</description>
 <contactref element="Y1" pad="P$1"/>
 <contactref element="U1" pad="2"/>
 <wire x1="7.62" y1="7.946" x2="7.311" y2="7.946" width="0.1524" layer="1"/>
-<wire x1="7.311" y1="7.946" x2="6.731" y2="7.366" width="0.1524" layer="1"/>
 <wire x1="6.64" y1="9.466" x2="6.64" y2="8.672" width="0.1524" layer="1"/>
 <wire x1="6.203" y1="7.366" x2="6.203" y2="8.235" width="0.1524" layer="1"/>
 <wire x1="6.203" y1="8.235" x2="6.64" y2="8.672" width="0.1524" layer="1"/>
 <wire x1="6.731" y1="7.366" x2="6.203" y2="7.366" width="0.1524" layer="1"/>
+<wire x1="7.311" y1="7.946" x2="6.731" y2="7.366" width="0.1524" layer="1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="U1" pad="40"/>
