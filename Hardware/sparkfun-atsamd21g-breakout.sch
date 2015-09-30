@@ -24631,7 +24631,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="SparkFun-Resistors" deviceset="100KOHM-1/10W-1%(0603)" device="" value="100k"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="330OHM1/10W1%(0603)" device="" value="330"/>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="DMG2307L" value="2.5A/30V"/>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="DMG2307L" value="2.5A/30V"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="47KOHM1/10W1%(0603)" device="" value="47K"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="330OHM1/10W1%(0603)" device="" value="330"/>
@@ -24644,7 +24644,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="NO_SILK" value="PWR-LED"/>
-<part name="S2" library="samd21-temp" deviceset="SWITCH-MOMENTARY-2" device="SMD-4.6X2.8MM" value="RESET"/>
+<part name="S1" library="samd21-temp" deviceset="SWITCH-MOMENTARY-2" device="SMD-4.6X2.8MM" value="RESET"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
@@ -24760,7 +24760,7 @@ Iq: 55uA</text>
 <instance part="R4" gate="G$1" x="43.18" y="144.78" rot="R90"/>
 <instance part="GND7" gate="1" x="50.8" y="127"/>
 <instance part="R5" gate="G$1" x="35.56" y="137.16"/>
-<instance part="Q3" gate="G$1" x="83.82" y="167.64" smashed="yes" rot="R90">
+<instance part="Q2" gate="G$1" x="83.82" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.026" y="166.878" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="77.978" y="171.196" size="1.778" layer="96"/>
 </instance>
@@ -24777,7 +24777,7 @@ Iq: 55uA</text>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
 <instance part="SJ1" gate="G$1" x="210.82" y="139.7" rot="MR90"/>
-<instance part="S2" gate="G$1" x="22.86" y="27.94" rot="MR0"/>
+<instance part="S1" gate="G$1" x="22.86" y="27.94" rot="MR0"/>
 <instance part="FID1" gate="G$1" x="246.38" y="30.48"/>
 <instance part="FID2" gate="G$1" x="243.84" y="33.02"/>
 <instance part="SUPPLY10" gate="G$1" x="43.18" y="152.4"/>
@@ -24851,7 +24851,7 @@ Iq: 55uA</text>
 <wire x1="27.94" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="27.94" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="S1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
@@ -25038,7 +25038,7 @@ Iq: 55uA</text>
 <segment>
 <wire x1="17.78" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
 <label x="15.24" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="S2" gate="G$1" pin="2"/>
+<pinref part="S1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="10"/>
@@ -25216,7 +25216,7 @@ Iq: 55uA</text>
 <wire x1="93.98" y1="167.64" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
 <junction x="93.98" y="167.64"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="88.9" y1="167.64" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="167.64" x2="91.44" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
@@ -25416,7 +25416,7 @@ Iq: 55uA</text>
 <net name="N$7" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<pinref part="Q3" gate="G$1" pin="D"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="58.42" y1="167.64" x2="78.74" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25456,7 +25456,7 @@ Iq: 55uA</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="Y"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="78.74" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="132.08" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="152.4" x2="83.82" y2="160.02" width="0.1524" layer="91"/>

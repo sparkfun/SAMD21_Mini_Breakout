@@ -2221,7 +2221,7 @@ design rules under a new name.</description>
 <element name="R5" library="SparkFun-Resistors" package="0603-RES" value="330" x="7.62" y="25.4" rot="R90">
 <attribute name="PROD_ID" value="RES-00818" x="7.62" y="25.4" size="0.889" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="Q3" library="SparkFun-DiscreteSemi" package="SOT23-3" value="2.5A/30V" x="11.176" y="25.4" rot="R270">
+<element name="Q2" library="SparkFun-DiscreteSemi" package="SOT23-3" value="2.5A/30V" x="11.176" y="25.4" rot="R270">
 <attribute name="PROD_ID" value="TRANS-11308" x="11.176" y="25.4" size="0.889" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" value="2.5A/30V" x="11.176" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2245,7 +2245,7 @@ design rules under a new name.</description>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="7.2136" y="5.9436" rot="MR90"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-12.7" y="-19.05"/>
 <element name="SJ1" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_NO_SILK" value="PWR-LED" x="1.905" y="31.623" rot="MR0"/>
-<element name="S2" library="samd21-temp" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="RESET" x="8.89" y="1.397" rot="R180">
+<element name="S1" library="samd21-temp" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="RESET" x="8.89" y="1.397" rot="R180">
 <attribute name="PROD_ID" value="SWCH-13065" x="8.89" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="15.24" y="2.54"/>
@@ -2338,8 +2338,8 @@ design rules under a new name.</description>
 <contactref element="SJ1" pad="1"/>
 <wire x1="2.413" y1="31.623" x2="4.702" y2="31.623" width="0.1524" layer="16"/>
 <wire x1="4.702" y1="31.623" x2="5.21" y2="31.115" width="0.1524" layer="16"/>
-<contactref element="S2" pad="2"/>
-<contactref element="S2" pad="1"/>
+<contactref element="S1" pad="2"/>
+<contactref element="S1" pad="1"/>
 <wire x1="6.84" y1="2.197" x2="6.84" y2="3.257" width="0.254" layer="1"/>
 <wire x1="10.94" y1="2.197" x2="10.222" y2="2.197" width="0.254" layer="1"/>
 <wire x1="10.222" y1="2.197" x2="8.89" y2="3.529" width="0.254" layer="1"/>
@@ -2481,8 +2481,8 @@ design rules under a new name.</description>
 <via x="8.3312" y="2.7432" extent="1-16" drill="0.254"/>
 <wire x1="6.1468" y1="2.7432" x2="8.3312" y2="2.7432" width="0.1524" layer="16"/>
 <wire x1="11.3792" y1="2.7432" x2="12.2682" y2="3.6322" width="0.1524" layer="16"/>
-<contactref element="S2" pad="3"/>
-<contactref element="S2" pad="4"/>
+<contactref element="S1" pad="3"/>
+<contactref element="S1" pad="4"/>
 <wire x1="11.3792" y1="2.7432" x2="8.3312" y2="2.7432" width="0.1524" layer="16"/>
 <wire x1="8.3312" y1="2.7432" x2="8.3312" y2="0.597" width="0.1524" layer="1"/>
 <wire x1="8.3312" y1="0.597" x2="10.94" y2="0.597" width="0.1524" layer="1"/>
@@ -2697,7 +2697,7 @@ design rules under a new name.</description>
 <contactref element="U2" pad="1"/>
 <contactref element="U2" pad="3"/>
 <contactref element="C7" pad="1"/>
-<contactref element="Q3" pad="2"/>
+<contactref element="Q2" pad="2"/>
 <contactref element="R7" pad="2"/>
 <wire x1="8.57" y1="22.5091" x2="8.57" y2="23.302" width="0.3048" layer="1"/>
 <wire x1="8.57" y1="23.302" x2="8.89" y2="23.622" width="0.3048" layer="1"/>
@@ -2964,7 +2964,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$7">
 <contactref element="F1" pad="2"/>
-<contactref element="Q3" pad="3"/>
+<contactref element="Q2" pad="3"/>
 <wire x1="12.276" y1="25.4" x2="13.84" y2="25.4" width="0.3048" layer="1"/>
 <wire x1="13.84" y1="25.4" x2="13.97" y2="25.27" width="0.254" layer="1"/>
 </signal>
@@ -3004,7 +3004,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$9">
 <contactref element="U3" pad="4"/>
-<contactref element="Q3" pad="1"/>
+<contactref element="Q2" pad="1"/>
 <contactref element="R7" pad="1"/>
 <wire x1="2.86" y1="24.0999" x2="2.86" y2="25.085" width="0.1524" layer="1"/>
 <via x="3.937" y="25.4" extent="1-16" drill="0.254"/>
