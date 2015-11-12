@@ -16,7 +16,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/samd21-minidev-breakout-hookup-guide/resources--going-further)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/samd21-minidev-breakout-hookup-guide/resources--going-further)** - Basic hookup guide for the SAMD21 Mini Breakout.
 
 Product Versions
 ----------------
