@@ -11,6 +11,7 @@ Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
+* **/Firmware** - SAMD21 Arduino Bootloader
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
