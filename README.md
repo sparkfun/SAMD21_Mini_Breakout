@@ -5,7 +5,7 @@ SparkFun SAMD21 Mini Breakout
 
 [*SparkFun SAMD21 Mini Breakout (DEV-13664)*](https://www.sparkfun.com/products/13664)
 
-The SAMD21 Mini Breakout is a [Pro Mini](https://www.sparkfun.com/products/11114)-sized breakout for the Atmel [ATSAMD21G18](http://www.atmel.com/devices/ATSAMD21G18A.aspx), a 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz. The SAMD21 is compatible with the Arduino IDE, and libraries for the Arduino Zero.
+The SAMD21 Mini Breakout is a [Pro Mini](https://www.sparkfun.com/products/11114)-sized breakout for the Atmel [ATSAMD21G18](http://www.atmel.com/devices/ATSAMD21G18.aspx), a 32-bit ARM Cortex-M0+ processor with 256KB flash, 32KB SRAM, and an operating speed of up to 48MHz. The SAMD21 is compatible with the Arduino IDE, and libraries for the Arduino Zero.
 
 Repository Contents
 -------------------
