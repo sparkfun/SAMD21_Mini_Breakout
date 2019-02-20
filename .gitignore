@@ -34,3 +34,8 @@ eagle.epf
 *.info
 
 *.eps
+
+# VIM files
+*~
+[._]*.un~
+*.swp
