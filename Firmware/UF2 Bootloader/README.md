@@ -13,6 +13,9 @@ To update your SAMD21 Mini with the bootloader is simple. If you already have a
 bootloader on it, i.e. you can see it populate in Arduino and/or Device
 Manager, then all you have to do is open the "Update-Bootloader.ino" sketch and
 upload it. Afterwards, you should see the SAMD21 pop up as a **SPARKFUN** drive. 
+I have also included an "update" binary file for those that want to use some
+GUI or command line interface instead, as well as _just_ the bootloader for
+those that don't already have a bootloader installed on their micro-controller.
 
 Circuit Python 
 ------------------
@@ -25,8 +28,8 @@ They also have some documentation on how to build a version of Circuit Python
 on their website [here](https://learn.adafruit.com/building-circuitpython/build-circuitpython). 
 I have included a build of it under the Circuit Python folder. Assuming that
 you have uploaded the UF2 bootloader above, than all you need to do is drag and
-drop that file into your **SPARKFUN** drive and you're good to go! The Sparkfun
-drive will momentarily disappear and a **CIRCUITPY** drive will take its
-place. 
+drop the UF2 file in the Circuit Python folder into your **SPARKFUN** drive and 
+you're good to go! The Sparkfun drive will momentarily disappear and a **CIRCUITPY** 
+drive will take its place. 
 
 
